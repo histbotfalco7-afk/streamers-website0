@@ -1,13 +1,76 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jok & Sulieman - Streamers</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>ستريمرز - Jok & Sulieman</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { 
+      background: linear-gradient(135deg, #6a1b9a, #283593); 
+      color: #fff; 
+      font-family: 'Tajawal', Arial, sans-serif; 
+      margin: 0; 
+      padding: 0; 
+      min-height: 100vh;
+      text-align: center;
+    }
+    .card {
+      background: rgba(40, 53, 147, 0.7);
+      margin: 20px auto;
+      padding: 24px;
+      border-radius: 16px;
+      max-width: 330px;
+      box-shadow: 0 8px 32px rgba(106,27,154,0.13);
+    }
+    .avatar {
+      width: 96px;
+      height: 96px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+      border: 2px solid #a084e8;
+      object-fit: cover;
+    }
+    .name { font-size: 2rem; margin-bottom: 12px; }
+    .bio { color: #cfd8dc; margin-bottom: 16px; font-size: 1.1rem; }
+    .socials a {
+      display: inline-block;
+      margin: 8px;
+      padding: 8px 16px;
+      border-radius: 24px;
+      background: #a084e8;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.2s;
+    }
+    .socials a:hover { background: #7c4dff; }
+    .footer { margin-top: 40px; color: #b39ddb; font-size: 1rem; }
+  </style>
+</head>
+<body>
+  <h1>مرحبا بك في موقع الستريمرز</h1>
+  <p>اكتشف حسابات أفضل الستريمرز</p>
+  <div class="card">
+    <img src="https://raw.githubusercontent.com/histbotfalco7-afk/streamers-website0/main/jok_logo.png" class="avatar" alt="Jok Logo">
+    <div class="name">Jok</div>
+    <div class="bio">ستريمر محترف ومبدع في عالم البث المباشر</div>
+    <div class="socials">
+      <a href="https://discord.gg/jok" target="_blank">Discord</a>
+      <a href="https://x.com/joook_7?s=21" target="_blank">Twitter</a>
+      <a href="https://kick.com/J1OK" target="_blank">Kick</a>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://raw.githubusercontent.com/histbotfalco7-afk/streamers-website0/main/sulieman_logo.png" class="avatar" alt="Sulieman Logo">
+    <div class="name">Sulieman</div>
+    <div class="bio">ستريمر موهوب يقدم محتوى مميز ومسلي</div>
+    <div class="socials">
+      <a href="https://kick.com/su-k15" target="_blank">Kick</a>
+      <a href="https://x.com/su_k505?s=21" target="_blank">Twitter</a>
+      <a href="https://youtube.com/@su_k15?si=jcqX8vz0Jdo1X6FW" target="_blank">YouTube</a>
+      <a href="https://discord.gg/Fv476jp4Fj" target="_blank">Discord</a>
+    </div>
+  </div>
+  <div class="footer">Made by <span style="color:#a084e8">Falco</span></div>
+</body>
 </html>
